@@ -36,6 +36,7 @@ html {
 .footer > p {
   width: 50vw;
   font-size: 1.6rem;
+    color: #123D68;
 }
 
 .search-bar {
@@ -138,6 +139,7 @@ html {
 .footer {
   text-align: center;
   padding: 10px;
+  color: #123D68;
 }
 
 .footer > p::before {
