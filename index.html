@@ -5,90 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bibliograph</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-<header class="header">
-    <figure class="logo-container">
-        <img src="https://static.wixstatic.com/media/ab0bf2_43e940fa71db49bc8b9d4a34afd18c2a~mv2.png/v1/fill/w_222,h_44,al_c,q_85,usm_0.66_1.00_0.01/ab0bf2_43e940fa71db49bc8b9d4a34afd18c2a~mv2.webp" alt="" class="logo" />
-    </figure>
-    <nav class="nav">
+    <header class="header">
+      <nav class="nav">
+        <figure class="logo-container">
+          <img
+            src="https://static.wixstatic.com/media/ab0bf2_43e940fa71db49bc8b9d4a34afd18c2a~mv2.png/v1/fill/w_222,h_44,al_c,q_85,usm_0.66_1.00_0.01/ab0bf2_43e940fa71db49bc8b9d4a34afd18c2a~mv2.webp"
+            alt=""
+            class="logo"
+          />
+        </figure>
         <ul class="nav-item-container">
           <li class="nav__item">
-           <a href="#">Books</a> 
+            <a class="item" href="#">Books</a>
           </li>
           <li class="nav__item">
-           <a href="#">Thesis</a> 
+            <a class="item" href="#">Thesis</a>
           </li>
           <li class="nav__item">
-            <a href="#">Podcast</a>
+            <a class="item" href="#">Podcast</a>
           </li>
           <li class="nav__item">
-           <a href="#">Videos</a> 
+            <a class="item" href="#">Videos</a>
           </li>
         </ul>
-        <ul class="nav-login-container">
-          <li class="login__item">
-            <input type="search" placeholder="Search" />
-          </li>
-          <li class="login__item">
-            <a href="">Log in</a>
-          </li>
-          <li class="login__item">
-            <a href="">Sign Up</a>
-          </li>
-        </ul>
-    </nav>
+      </nav>
 
-</header>
+      <ul class="nav-item-container">
+        <li class="nav__item">
+          <input class="search-bar" type="search" placeholder="Search" />
+        </li>
+        <li class="nav__item">
+          <a class="item" href="">Sign in</a>
+        </li>
+        <li class="nav__item button-style">
+          <a class="item" href="">Sign Up</a>
+        </li>
+      </ul>
+    </header>
 
-<main class="main">
-    <section class="main-section">
+    <main class="main">
+      <section class="main-section">
         <article class="article">
-            <div class="article-container">
-                <h1>Learn unlimited</h1>
-                <p>Expand your knowledge now, from anywhere and at any time. Our books wait for you</p>
-                <form class="signup-container">
-                    <label for="email">
-                        <input type="email" id="email" placeholder="Email" name="email">
-                    </label>
-                    <input type="submit" value="Sign Up">
-                </form>
-            </div>
-            <figure class="main-img">
-                <img src="https://static.wixstatic.com/media/ab0bf2_7d3aecf2b67646c3a15e229f47efcd14~mv2.png/v1/fill/w_896,h_573,al_c,q_90,usm_0.66_1.00_0.01/ab0bf2_7d3aecf2b67646c3a15e229f47efcd14~mv2.webp" alt="" class="hero">
-            </figure>
+          <div class="article-container">
+            
+            <h1 class="main-text"><span class="text-up">Learn</span> <br> <span class="text-down"> unlimited </span></h1>
+            
+            <p>
+              Expand your knowledge now, from anywhere and at any time. Our
+              books wait for you
+            </p>
+
+            <form class="signup-container">
+              <label for="email">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                  name="email"
+                />
+              </label>
+              <input  type="submit" value="Sign Up" />
+            </form>
+          </div>
+
+          <figure class="main-img">
+            <img
+              src="https://static.wixstatic.com/media/ab0bf2_7d3aecf2b67646c3a15e229f47efcd14~mv2.png/v1/fill/w_896,h_573,al_c,q_90,usm_0.66_1.00_0.01/ab0bf2_7d3aecf2b67646c3a15e229f47efcd14~mv2.webp"
+              alt=""
+              class="hero"
+            />
+          </figure>
         </article>
-    </section>
-    <section class="second-section">
-        <div class="second_items">
-            <figure class="img-container">
-                <img src="https://static.wixstatic.com/media/ab0bf2_a42dd6d6839d4d418740355b1c27f502~mv2.png/v1/fill/w_267,h_318,al_c,q_85,usm_0.66_1.00_0.01/Libros%20portada.webp" alt="">
+      </section>
+      <section class="second-section-container">
+        <h1 class="second-text">How do you want to learn?</h1>
+
+        <article class="second-section">
+            <div class="second_items">
+              <figure class="img-container">
+                <img
+                  src="https://static.wixstatic.com/media/ab0bf2_a42dd6d6839d4d418740355b1c27f502~mv2.png/v1/fill/w_267,h_318,al_c,q_85,usm_0.66_1.00_0.01/Libros%20portada.webp"
+                  alt=""
+                />
                 <figcaption>Books</figcaption>
-            </figure>
-        </div>
-        <div class="second_items">
-            <figure class="img-container">
-                <img src="https://static.wixstatic.com/media/ab0bf2_c55da467f65448ea9fcc3feac9aa7aad~mv2.png/v1/crop/x_843,y_218,w_1854,h_2129/fill/w_264,h_300,al_c,q_85,usm_0.66_1.00_0.01/Podcast%20portada-01.webp" alt="">
+              </figure>
+            </div>
+            <div class="second_items">
+              <figure class="img-container">
+                <img
+                  src="https://static.wixstatic.com/media/ab0bf2_c55da467f65448ea9fcc3feac9aa7aad~mv2.png/v1/crop/x_843,y_218,w_1854,h_2129/fill/w_264,h_300,al_c,q_85,usm_0.66_1.00_0.01/Podcast%20portada-01.webp"
+                  alt=""
+                />
                 <figcaption>Podcast</figcaption>
-            </figure>
-        </div>
-        <div class="second_items">
-            <figure class="img-container">
-                <img src="https://static.wixstatic.com/media/ab0bf2_cb53ffd6f70f46db9fc45793ca66127f~mv2.png/v1/fill/w_254,h_302,al_c,q_85,usm_0.66_1.00_0.01/Videos%20portada.webp" alt="">
+              </figure>
+            </div>
+            <div class="second_items">
+              <figure class="img-container">
+                <img
+                  src="https://static.wixstatic.com/media/ab0bf2_cb53ffd6f70f46db9fc45793ca66127f~mv2.png/v1/fill/w_254,h_302,al_c,q_85,usm_0.66_1.00_0.01/Videos%20portada.webp"
+                  alt=""
+                />
                 <figcaption>Videos</figcaption>
-            </figure>
-        </div>
-    </section>
-</main>
-<footer class="footer">
-    <div class="info-container">
+              </figure>
+            </div>
+
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+     
+        <div class="info-container">
         <ul class="info">
-            <li class="text">Privacy</li>
-            <li class="text">Contact Us</li>
-            <li class="text">About Us</li>
+          <li class="text">Privacy</li>
+          <li class="text">Contact Us</li>
+          <li class="text">About Us</li>
         </ul>
-    </div>
-    <p>© 2020- 2021 Antonio José de Sucre University Institute of Technology </p>
-</footer>
+      </div>
+
+      <p>
+        © 2020- 2021 Antonio José de Sucre University Institute of Technology
+      </p>
+    </footer>
+
   </body>
 </html>

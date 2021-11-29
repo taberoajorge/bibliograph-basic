@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  padding: 10px;
+}
+
+.header,
+.nav,
+.nav-item-container,
+.main,
+.article,
+.article-container,
+.second-section,
+.footer,
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-container > .nav__item {
+  margin-left: 3rem;
+}
+
+.nav-item-container,
+.info-container,
+.footer > p {
+  width: 50vw;
+  font-size: 1.6rem;
+}
+
+.search-bar {
+  border-radius: 1rem;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.button-style > a {
+    padding: 0.5rem;
+}
+
+.article-container > p {
+  font-size: 1.9rem;
+  margin: 3rem 18rem;
+}
+
+
+.article,
+.footer {
+  justify-content: space-between;
+}
+
+.main-text {
+  font-size: 8rem;
+}
+
+.text-up {
+  color: #123d68;
+}
+
+.text-down {
+  color: #f48637;
+}
+
+/* .signup-container > label,  .signup-container > input{
+    margin: 2rem;
+} */
+
+.signup-container  > input, .button-style > .item {
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+    background-color:#f48637;
+    border-radius: 5px;
+    border: 1px solid #f48637;
+    color: white;
+    font-weight: bold;
+}
+
+.signup-container > label >input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+.second-section-container {
+  background-color: #204a87;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 2.9rem;
+  padding: 5rem;
+}
+
+.second-section-container > .second-text {
+  margin-bottom: 2rem;
+}
+
+.main-section {
+  justify-content: space-between;
+}
+
+.second-section,
+.info {
+  justify-content: space-around;
+}
+
+.main {
+  width: 100%;
+}
+
+.article-container,
+.main-img {
+  width: 50%;
+}
+
+.hero {
+  width: 100%;
+}
+
+.main,
+.article-container {
+  flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer > p::before {
+  content: "|";
+}
